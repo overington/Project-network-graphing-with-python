@@ -2,7 +2,7 @@ jupyterlab
 ipympl
 
 matplotlib
-networkit
+networkx
 seaborn
 
 numpy
