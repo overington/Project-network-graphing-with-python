@@ -24,11 +24,6 @@ def get_region_df(file_name=False):
 
     # Collect  yearly data for each road
     df['road_section_hash'] = df.apply(get_hash, axis=1)
-    #  year_range = df['AADFYear'].unique
-    #  newdf = pd.DatetimeIndex(year_range)
-    #  grouper = pd.Grouper(key='AADFYear', freq='1Y')
-
-    #  df['normed'] = df.groupby(grouper)
     return df
 
 
