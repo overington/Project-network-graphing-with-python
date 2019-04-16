@@ -2,8 +2,11 @@ jupyterlab
 ipympl
 
 matplotlib
-networkx
 seaborn
+
+networkx
+fa2
+bezier
 
 numpy
 pandas
