@@ -4,12 +4,12 @@ We use a variety of data sources to calculate objective contextual information r
 
 A fundamental part of deriving insight from network-style data is handling messy data. In geospatial domains this is often volunteered by organisations and is not always provided in a user-friendly or analyst-friendly manner. Handled correctly, such information can be deeply insightful.
 
-The UK provides open road traffic data, specifically measurements of Average Annual Daily Flow, the number of vehicles that will travel along a road length on an average day of the year. The data contains columns listing AADF for vehicle types and text identifiers for the two ends of each road junction (StartJunction, EndJunction). Other columns detail, for example, the length of the road in question, and co-ordinates of the junction in Easting and Northing (see https://en.wikipedia.org/wiki/Easting_and_northing).
+The UK provides open road traffic data, specifically measurements of Average Annual Daily Flow, the number of vehicles that will travel along a road length on an average day of the year. The data contains columns listing AADF for vehicle types and text identifiers for the two ends of each road junction (StartJunction, EndJunction). Other columns detail, for example, the length of the road in question, and co-ordinates of the junction in Easting and Northing (see https://en.wikipedia.org/wiki/Easting_and_northing ).
 
 Your task is to:
 
-1. Download an AADF dataset for any region ([https://www.dft.gov.uk/traffic-counts/download.php], top right column on the table under “Download traffic datasets”)
-2. Construct a network representation of the road networkusing the python packages NetworkX or NetworKit
+1. Download an AADF dataset for any region ([DFT Traffic counts](https://www.dft.gov.uk/traffic-counts/download.php), top right column on the table under “Download traffic datasets”)
+2. Construct a network representation of the road network using the python packages NetworkX or NetworKit
 3. Perform an analysis which identifies:
     1. Which of the network metrics which can be calculated using network representation packages, if any, correlate with road network AADF, and how strongly they do so.
     1. whether there are significant differences between different road categories
@@ -18,6 +18,9 @@ Consideration should be given to the performance and efficiency of the code and 
 
 You should attach all the code you have written and a brief 2-3 page summary of:
 - your method
+see [Notebook](report.ipynb) or [Run Notebook on Google Cloud](https://colab.research.google.com/github/oh-/Project-network-graphing-with-python/blob/master/report.ipynb)
+
+
 - your findings
 - how you would extend your solution and perform further improvements given more time
 - how you have designed your analysis to be scalable on larger datasets, identifying relevant limits and workaroundsYou have 10 days to complete and return your submission in a compressed file.
