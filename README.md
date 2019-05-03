@@ -16,5 +16,4 @@ Your task is to:
 
 Consideration should be given to the performance and efficiency of the code and how simple your solution is to scale up and automate, and to enable it to process much larger datasets (as a hint/example, if you use jupyter notebooks for analysis we would strongly encourage providing a scalable executable version of your solution code outside of your analysis notebook). Consideration should also be given to handling data quality and issues with data integrity e.g. missing data.
 
-You should attach all the code you have written and a brief 2-3 page summary of:
-For my submission see [Notebook](report.ipynb) or [Run Notebook on Google Cloud](https://colab.research.google.com/github/oh-/Project-network-graphing-with-python/blob/master/report.ipynb). It includes a small write up using my the method (needs more details), and findings. 
+For my submission see my Jupyter Notebook [report.ipynb](report.ipynb) or [Run Notebook on Google Cloud](https://colab.research.google.com/github/oh-/Project-network-graphing-with-python/blob/master/report.ipynb). It includes a small write up using my the method (needs more details), and findings.
